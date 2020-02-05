@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="UnityThemeSelector" parent="BaseUnityTheme">
+	<item name="android:windowBackground">#151037</item>
+</style>
+<style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+</style>
+<style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">#151037</item>
+</style>
+    <style name="BaseUnityTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <!-- для Android 5+ вы можете поменять цвет colorPrimaryDark, чтобы соответствовать цвету windowBackground -->
+        <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+</resources>
